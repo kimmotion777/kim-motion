@@ -1,1 +1,206 @@
+o<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kim Motion</title>
 
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0B0B0B;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6C3BFF;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background: linear-gradient(to right, #0B0B0B, #111);
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero p {
+  color: #aaa;
+  max-width: 500px;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #6C3BFF;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* SERVICES */
+.section {
+  padding: 70px 40px;
+}
+
+.services {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-box {
+  width: 300px;
+  height: 180px;
+  background: #222;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  margin: 10px;
+}
+
+/* FLOAT BUTTON */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Kim Motion</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>We Turn Moments Into Cinematic Stories</h1>
+  <p>Professional videography for events, brands, and creators.</p>
+
+  <a class="btn" href="https://wa.me/254714216520?text=Hello%20Kim%20Motion,%20I%20want%20to%20book%20a%20shoot">
+    Book on WhatsApp
+  </a>
+
+  <a class="btn" href="tel:+254714216520">
+    Call Now
+  </a>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <h2>Our Services</h2>
+
+  <div class="services">
+    <div class="card">
+      <h3>Event Coverage</h3>
+      <p>Weddings, graduations, parties.</p>
+    </div>
+
+    <div class="card">
+      <h3>Business Ads</h3>
+      <p>Promotional videos for brands.</p>
+    </div>
+
+    <div class="card">
+      <h3>Content Creation</h3>
+      <p>Reels, TikTok, social media videos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section">
+  <h2>Our Work</h2>
+
+  <div class="portfolio">
+    <div class="video-box">Your Video 1</div>
+    <div class="video-box">Your Video 2</div>
+    <div class="video-box">Your Video 3</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <h2>Contact Us</h2>
+
+  <p>📞 +254 714 216 520</p>
+
+  <a class="btn" href="https://wa.me/254714216520?text=Hello%20Kim%20Motion,%20I%20want%20to%20book%20a%20shoot">
+    WhatsApp Us
+  </a>
+</section>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a class="whatsapp-float" href="https://wa.me/254714216520?text=Hello%20Kim%20Motion,%20I%20want%20to%20book%20a%20shoot">
+  💬
+</a>
+
+<footer style="text-align:center; padding:20px; color:#777;">
+  © 2026 Kim Motion. All rights reserved.
+</footer>
+
+</body>
+</html>
